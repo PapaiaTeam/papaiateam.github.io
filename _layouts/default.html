@@ -1,20 +1,21 @@
-<!doctype html>
+---
+layout: compress
+---
+<!DOCTYPE html>
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
 
-  <div class="container">
-    {% include header.html %}
+    <main>
 
-    <div class="post-container">
       {{ content }}
-    </div>
+
+    </main>
 
     {% include footer.html %}
 
-  </div>
+  </body>
 
-</body>
 </html>
